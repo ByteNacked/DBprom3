@@ -14,11 +14,18 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    core/node.cpp
+    core/node.cpp \
+    subwindows/addattributedialog.cpp \
+    core/storage.cpp \
+    core/nodecontainer.cpp
 
 HEADERS  += mainwindow.h \
-    core/node.h
+    core/node.h \
+    subwindows/addattributedialog.h \
+    core/storage.h \
+    core/nodecontainer.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    subwindows/addattributedialog.ui
 
 CONFIG   += c++11

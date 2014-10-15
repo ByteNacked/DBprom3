@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "core/node.h"
 
 int main(int argc, char *argv[])
 {
@@ -8,8 +7,6 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
 
-    Node a1("lel");
-    Node a2("lol");
 
     return a.exec();
 }
